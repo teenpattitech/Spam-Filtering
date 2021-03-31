@@ -41,7 +41,7 @@ if nav == "About":
 
 
 if nav == "Filter":
-    st.markdown("# Hi, I am your _buddy EMP_")
+    st.markdown("# Hi, I am your _buddy Email Spam Filtering_")
     st.markdown("## Click here to activate me")
     if(st.button("Activate")):
         progress = st.progress(0)
