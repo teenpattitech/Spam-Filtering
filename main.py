@@ -31,9 +31,9 @@ def predict_mail(mail):
     return decision[0]
 
 
-st.title("Welcome to Spam Filtering")
+st.title("SPAMIT")
 
-nav = st.sidebar.radio("Navigation", ["Home", "About", "SpamFilter"])
+nav = st.sidebar.radio("", ["Home", "About", "SpamIt"])
 
 if nav == "Home":
     st.markdown("""<br/>""", True)
@@ -95,21 +95,13 @@ if nav == "About":
     st.image("./images/spam-1.png")
 
 
-if nav == "SpamFilter":
+if nav == "SpamIt":
     st.markdown("# _Let's filter out your emails!_")
-#     st.markdown("## Click here to activate me")
-#     if(st.button("Activate")):
-#         progress = st.progress(0)
-#         for i in range(100):
-#             time.sleep(0.1)
-#             progress.progress(i+1)
-#         st.balloons()
-    sentence = st.text_area("Input your sentence/email here:")
-
+    sentence = st.text_area("Input your email/sentence here:")
     if st.button("Predict"):
         if sentence != "":
             output = predict_mail(sentence)
             if output == 1:
-                st.markdown('It\'s a SPAM Email')
+                st.markdown('### It\'s a SPAM Email')
             else:
-                st.markdown('It\'s NOT a SPAM Email')
+                st.markdown('### It\'s NOT a SPAM Email')
