@@ -153,7 +153,7 @@ Project Link: [https://github.com/warrenferns/Spam-Filtering](https://github.com
 [issues-shield]: https://img.shields.io/github/issues/warrenferns/Spam-Filtering?color=yellow&style=for-the-badge
 [issues-url]: https://github.com/warrenferns/Spam-Filtering/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/warrenferns/Spam-Filtering/blob/master/LICENSE.txt
+[license-url]: https://github.com/warrenferns/Spam-Filtering/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/warren-fernandes-a354281a3/
 [product-screenshot]: images/screenshot.jpg
