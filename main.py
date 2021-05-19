@@ -6,6 +6,7 @@ import nltk
 import re
 nltk.download('wordnet')
 nltk.download('stopwords')
+nltk.download('punkt')
 
 
 def predict_mail(mail):
