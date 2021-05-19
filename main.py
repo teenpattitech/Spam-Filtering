@@ -34,7 +34,7 @@ def predict_mail(mail):
 
 st.title("SPAMIT")
 
-nav = st.sidebar.radio("", ["Home", "About", "SpamIt"])
+nav = st.sidebar.radio("", ["Home", "About", "Our Team", "SpamIt"])
 
 if nav == "Home":
     st.markdown("""<br/>""", True)
@@ -53,27 +53,7 @@ if nav == "Home":
              """, True)
 
     st.image("./images/spam-2.jpg")
-    st.markdown("### New Visitor?")
-    if st.button("Register"):
-        first, last = st.beta_columns(2)
-        first.text_input("First Name")
-        last.text_input("Last Name")
-        email, mobile = st.beta_columns([3, 1])
-        email.text_input("Email Id")
-        mobile.text_input("Mobile No")
-        username, pw, rpw = st.beta_columns(3)
-        username.text_input("Username")
-        pw.text_input("Password", type="password")
-        rpw.text_input("Re-enter Password", type="password")
-        check, space, submit = st.beta_columns(3)
-        check.checkbox("I agree to all T&C", value=False)
-        submit.button("Submit")
 
-    st.markdown("### Already a visitor?")
-    if st.button("Login", key="login"):
-        email = st.text_input("Enter Email Id")
-        password = st.text_input("Enter password", type="password")
-        st.button("Login Here", key="entry")
 
 
 if nav == "About":
@@ -95,6 +75,18 @@ if nav == "About":
     """, True)
     st.image("./images/spam-1.png")
 
+if nav == "Our Team":
+    col1, col2, col3 = st.beta_columns(3)
+    col1.markdown("### Warren Fernandes")
+    col1.markdown("_\"Its Time to Roll\"_")
+    col2.markdown("### Liny Mathew")
+    col2.markdown("_\"Its Time to Rock\"_")
+    col3.markdown("### Yash Deshmukh")
+    col3.markdown("_\"Its Time for Shava Shava\"_")
+    st.markdown("""<br>""", True)
+    st.markdown("_\"~Your incharge of how you feel. Don't let anyone kill your vibe. Lets stop spams\"_", True)
+    st.markdown("""<br>""", True)
+    st.image("images/team.jpeg")
 
 if nav == "SpamIt":
     st.markdown("# _Let's filter out your emails!_")
@@ -106,3 +98,33 @@ if nav == "SpamIt":
                 st.markdown('### It\'s a SPAM Email')
             else:
                 st.markdown('### It\'s NOT a SPAM Email')
+
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Developed with ❤ by <a style='display: block; text-align: center;' href="https://www.linkedin.com/in/warren-fernandes-a354281a3/" target="_blank">Warren <a href="https://www.linkedin.com/in/yash-deshmukh-21576b160/">Yash <a href="https://www.linkedin.com/in/linymathew/" >Liny</a></p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
+
