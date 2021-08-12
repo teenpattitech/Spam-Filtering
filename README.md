@@ -1,14 +1,7 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/warrenferns/Spam-Filtering">
+  <a href="https://github.com/teenpattitech/Spam-Filtering">
   </a>
 
   <h3 align="center">Spam-Filtering</h3>
@@ -16,14 +9,14 @@
   <p align="center">
     To classify the email into Spam and Non-Spam
     <br />
-    <a href="https://github.com/warrenferns/Spam-Filtering"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/teenpattitech/Spam-Filtering"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/warrenferns/Spam-Filtering">View Demo</a>
+    <a href="https://github.com/teenpattitech/Spam-Filtering">View Demo</a>
     ·
-    <a href="https://github.com/warrenferns/Spam-Filtering/issues">Report Bug</a>
+    <a href="https://github.com/teenpattitech/Spam-Filtering/issues">Report Bug</a>
     ·
-    <a href="https://github.com/warrenferns/Spam-Filtering/issues">Request Feature</a>
+    <a href="https://github.com/teenpattitech/Spam-Filtering/issues">Request Feature</a>
   </p>
 </p>
 
@@ -58,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Screen Shot][product-screenshot]](https://github.com/warrenferns/Spam-Filtering)
+[![Screen Shot][product-screenshot]](https://github.com/teenpattitech/Spam-Filtering)
 
 With the help of text-classifier algorithms, rejecting mails based on text analysis can be serious problem in case of false positives. Normally users and organizations would not want any genuine e-mails to be lost. Black list approach has been one of the earliest approaches tried for the filtering of spams. 
 
@@ -85,7 +78,7 @@ You need to have Python installed on your PC. If you do not have you can [instal
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/warrenferns/Spam-Filtering
+   git clone https://github.com/teenpattitech/Spam-Filtering
    ```
 3. Install the Requirements
    ```sh
@@ -121,9 +114,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Warren Fernandes - [@warrenspeaks](https://twitter.com/warrenspeaks) - warren.fernandes27@gmail.com
+Teenpatti Tech - weliveyoungcrce@gmail.com
 
-Project Link: [https://github.com/warrenferns/Spam-Filtering](https://github.com/warrenferns/Spam-Filtering)
+Project Link: [https://github.com/teenpattitech/Spam-Filtering](https://github.com/teenpattitech/Spam-Filtering)
 
 
 
@@ -144,17 +137,12 @@ Project Link: [https://github.com/warrenferns/Spam-Filtering](https://github.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors-anon/warrenferns/Spam-Filtering?color=green&style=for-the-badge
-[contributors-url]: https://github.com/warrenferns/Spam-Filtering/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/warrenferns/Spam-Filtering?style=for-the-badge
+[contributors-url]: https://github.com/teenpattitech/Spam-Filtering/graphs/contributors
 [forks-url]: https://github.com/warrenferns/Spam-Filtering/network/members
-[stars-shield]: https://img.shields.io/github/stars/warrenferns/Spam-Filtering?style=for-the-badge
-[stars-url]: https://github.com/warrenferns/Spam-Filtering/stargazers
-[issues-shield]: https://img.shields.io/github/issues/warrenferns/Spam-Filtering?color=yellow&style=for-the-badge
-[issues-url]: https://github.com/warrenferns/Spam-Filtering/issues
+[stars-url]: https://github.com/teenpattitech/Spam-Filtering/stargazers
+[issues-url]: https://github.com/teenpattitech/Spam-Filtering/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/warrenferns/Spam-Filtering/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/warren-fernandes-a354281a3/
 [product-screenshot]: images/screenshot.jpg
 
